@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+	Deploy application a grails application into appengine 
+	victor.benarbia@gmail.com
+-->
+<project name="gappengine-deploy" default="distribute">
+<property environment="env"/>
+<property name="email" value="jvmvik@gmail.com"/>
+<target name="distribute">
+	<antcall target="package"></antcall>
+	<antcall target="deploy"></antcall>
+</target>
+
+<target name="package">
+	<exec executable="grails">
+		<arg value="app-engine"/>
+		<arg value="package"/>
+	</exec>
+</target>
+
+<target name="deploy" unless="${env.APPENGINE_HOME}">
+	<exec executable="${env.APPENGINE_HOME}/bin/appcfg.sh">
+		<arg value="update"/>
+		<arg value="./target/war"/>
+		<arg value="-e"/>
+		<arg value="${email}"/>
+	</exec>
+</target>
+
+</project>

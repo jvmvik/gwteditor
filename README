@@ -1,0 +1,25 @@
+GWT editor 
+---------
+
+This application intend to demonstrate how to embbed code mirror into a GWT Project. Code mirror is written in JavaScript.
+
+Technologies
+---------
+  - appengine 1.3.6
+  - GWT 2.0.4
+  - Grails 1.3.4
+  - Plugins:
+	- GWT fro grails
+	- Appengine for Grails
+
+Development commands
+---------
+$grails appengine run-app // run the dev environment in a debug JVM on 
+$grails run-gwt-client // Run GWT debugger
+
+Deployement commands
+-----------
+$grails app-engine package // package app ready for deployment to target/war
+$grails $APPENGINE_HOME/bin/appcfg.sh update ./target/war 
+or 
+$ant deploy
