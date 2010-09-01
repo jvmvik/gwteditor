@@ -12,8 +12,40 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
-	    <nature>com.springsource.sts.grails.core.nature</nature>
+		<nature>com.springsource.sts.grails.core.nature</nature>
 		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>app-engine-0.8.10-grails-app-controllers</name>
+			<type>2</type>
+			<location>/Users/victorbenarbia/.grails/1.3.4/projects/gunhook/plugins/app-engine-0.8.10/grails-app/controllers</location>
+		</link>
+		<link>
+			<name>app-engine-0.8.10-grails-app-i18n</name>
+			<type>2</type>
+			<location>/Users/victorbenarbia/.grails/1.3.4/projects/gunhook/plugins/app-engine-0.8.10/grails-app/i18n</location>
+		</link>
+		<link>
+			<name>app-engine-0.8.10-src-groovy</name>
+			<type>2</type>
+			<location>/Users/victorbenarbia/.grails/1.3.4/projects/gunhook/plugins/app-engine-0.8.10/src/groovy</location>
+		</link>
+		<link>
+			<name>gorm-jpa-0.7.1-grails-app-i18n</name>
+			<type>2</type>
+			<location>/Users/victorbenarbia/.grails/1.3.4/projects/gunhook/plugins/gorm-jpa-0.7.1/grails-app/i18n</location>
+		</link>
+		<link>
+			<name>gorm-jpa-0.7.1-src-groovy</name>
+			<type>2</type>
+			<location>/Users/victorbenarbia/.grails/1.3.4/projects/gunhook/plugins/gorm-jpa-0.7.1/src/groovy</location>
+		</link>
+		<link>
+			<name>gorm-jpa-0.7.1-src-java</name>
+			<type>2</type>
+			<location>/Users/victorbenarbia/.grails/1.3.4/projects/gunhook/plugins/gorm-jpa-0.7.1/src/java</location>
+		</link>
+	</linkedResources>
 </projectDescription>

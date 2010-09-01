@@ -7,7 +7,7 @@ class UrlMappings {
 			}
 		}
 
-		"/"(view:"/index")
+		"/"(view:"editor.gsp")
 		"500"(view:'/error')
 	}
 }

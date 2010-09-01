@@ -1,7 +1,7 @@
 <module>
     <!-- Inherit the core Web Toolkit stuff.                  -->
     <inherits name="com.google.gwt.user.User"/>
-
+	<inherits name="at.wizzart.gwt.widgets.CodeMirror"/>
     <!-- Specify the module entry point class.                   -->
     <entry-point class="eu.unhook.gunhook.client.editor"/>
 </module>

@@ -1,6 +1,9 @@
 <grails>
   <resources>
     <resource>org.grails.appengine.AppEngineReloadController</resource>
+    <resource>org.codehaus.groovy.grails.plugins.gwt.GwtUrlMappings</resource>
+    <resource>org.codehaus.groovy.grails.plugins.gwt.GwtController</resource>
+    <resource>org.codehaus.groovy.grails.plugins.gwt.GwtActionService</resource>
     <resource>BootStrap</resource>
     <resource>BuildConfig</resource>
     <resource>Config</resource>
@@ -11,5 +14,6 @@
   <plugins>
     <plugin>AppEngineGrailsPlugin</plugin>
     <plugin>GormJpaGrailsPlugin</plugin>
+    <plugin>GwtGrailsPlugin</plugin>
   </plugins>
 </grails>
