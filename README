@@ -1,11 +1,11 @@
-GWT editor 
+GWT editor : Code mirror basic sample of use
 ---------
 
 This application intend to demonstrate how to embbed code mirror into a GWT Project. Code mirror is written in JavaScript.
 
 Technologies
 ---------
-  - appengine 1.3.6
+  - appengine 1.3.7
   - GWT 2.0.4
   - Grails 1.3.4
   - Plugins:
